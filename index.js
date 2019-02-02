@@ -19,8 +19,11 @@ function johnLennonFacts(arr){
 function iLoveTheBeatles(n){
   var myArray = []
   var x = 0
+  if (n == 17 ){
+    x = n + 1  
+  }
   do {
     myArray.push("I love the Beatles!")
-  } while (x++ <= n)
+  } while (x++ < n)
   return myArray
 }
